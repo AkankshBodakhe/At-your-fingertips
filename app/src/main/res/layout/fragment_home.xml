@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Cafe"
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Cafes"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/cafes" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:id="@+id/hospital"
+                    android:layout_height="90dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Hospitals"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/hospital" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/repairShop"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Repair shops"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="86dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="290dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/repairshop" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/touristPlace"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Tourist place"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="98dp"
+                        android:layout_height="61dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="290dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/touristplace" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/hotels"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Hotels"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="111dp"
+                        android:layout_height="75dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="270dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/hotel" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/retailShops"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Pharmacy"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/pharmacy" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/restaurants"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Restaurants"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="63dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="290dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/baseline_restaurant_24" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/stationary"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Stationary"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/stationary" />
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/railwayStation"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center_horizontal"
+                            android:text="Railway"
+                            android:textColor="@color/white"
+                            android:textSize="44dp"
+                            android:textStyle="italic" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:gravity="center_horizontal"
+                            android:text="Station"
+                            android:textColor="@color/white"
+                            android:textSize="44dp"
+                            android:textStyle="italic" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/railway" />
+
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:id="@+id/airport"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:backgroundTint="@color/my_primary"
+                    app:cardCornerRadius="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center_horizontal"
+                        android:text="Airports"
+                        android:textColor="@color/white"
+                        android:textSize="44dp"
+                        android:textStyle="italic" />
+
+                    <ImageView
+                        android:layout_width="143dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="240dp"
+                        android:maxHeight="90dp"
+                        android:src="@drawable/airport" />
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</FrameLayout>

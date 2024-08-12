@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "616758356717",
+    "firebase_url": "https://at-your-fingertips-24ef9-default-rtdb.firebaseio.com",
+    "project_id": "at-your-fingertips-24ef9",
+    "storage_bucket": "at-your-fingertips-24ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:616758356717:android:6a93bd2bbf9377fcb4fae4",
+        "android_client_info": {
+          "package_name": "com.example.atyourfingertips"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "616758356717-h2bddrrh485pao4khbq9t21irvjmpuji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.atyourfingertips",
+            "certificate_hash": "838f9f5960da971f30d00340e8972795f79fac19"
+          }
+        },
+        {
+          "client_id": "616758356717-3qqvvhfbgov3mfs9l52314amkm9b73f0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC226M_X8gPReGIFgFjx-lq7HrmnMtzv5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "616758356717-3qqvvhfbgov3mfs9l52314amkm9b73f0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
